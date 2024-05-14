@@ -307,21 +307,6 @@ class _RegisterFormPageState extends State<RegisterFormPage> {
         ),
       ),
     );
-    // До Flutter 2.0
-    // _scaffoldKey.currentState.showSnackBar(
-    //   SnackBar(
-    //     duration: Duration(seconds: 5),
-    //     backgroundColor: Colors.red,
-    //     content: Text(
-    //       message,
-    //       style: TextStyle(
-    //         color: Colors.black,
-    //         fontWeight: FontWeight.w600,
-    //         fontSize: 18.0,
-    //       ),
-    //     ),
-    //   ),
-    // );
   }
 
   void _showDialog({required String name}) {
